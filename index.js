@@ -1,4 +1,4 @@
-let express = require('express');
+let express = require('express'); //웹서버 구동 패키지. 라이브러리
 let app = express();
 let router = require('./router/main')(app);
 let port = process.env.PORT || 3000;
